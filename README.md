@@ -1,11 +1,14 @@
-# TradeAI: Advancing Algorithmic Trading Systems with Deep Learning for Cryptocurrency Data
+# ForgeFund: Advancing Algorithmic Trading Systems with Deep Learning for Cryptocurrency Data
+
+![Twitter Cover](https://pbs.twimg.com/profile_banners/1874914887220011008/1735853899/1500x500)
+Website: [https://www.fundforge.sh/](https://www.fundforge.sh/)  
+Twitter: [https://x.com/FundForgedotsh](https://x.com/FundForgedotsh)
 
 ## Introduction
 
 Integrating deep learning methods into algorithmic trading systems is revolutionizing the financial industry. It has opened up sophisticated analysis and decision-making capabilities that were once limited to institutional investors, making them accessible to retail investors. However, the application of deep learning in medium-frequency trading (1-30 seconds), especially in the cryptocurrency market, remains largely unexplored.
 
 This research project aims to bridge this gap by investigating the feasibility and effectiveness of integrating deep learning methods into an algorithmic trading system specifically tailored for cryptocurrency trading. [Full Paper Here](docs/documents/Final_Report.pdf)
-
 
 ## Research Objectives
 
@@ -16,6 +19,7 @@ This research project aims to bridge this gap by investigating the feasibility a
 - Integrate predictive signals from these models into a Deep Reinforcement Learning (DRL) framework for effective order generation and decision-making.
 
 ## Research Findings
+
 This study explored the feasibility of developing a full-stack algorithmic trading system capable of running deep-learning-based trading strategies on Cryptocurrency limit order book data.
 
 - Transformer models (Informer, Pyraformer, enhanced original transformer) outperformed traditional ARIMA models in capturing intricate patterns in cryptocurrency price data.
@@ -24,12 +28,9 @@ This study explored the feasibility of developing a full-stack algorithmic tradi
 - The algorithmic trading system showed promising results, with potential for further tuning and improvement.
 
 ## Methods
-Predictive models are a powerful tool for accurately predicting future events or outcomes based on
-historical data. With the increasing availability of large and complex datasets, advanced machine-learning
-techniques have become essential for extracting meaningful insights and making informed decisions. This
-study conducted an extensive literature review to identify a range of predictive models, including the
-Transformer, Informer, and Pyraformer. These models have demonstrated impressive performance in
-learning complex patterns from historical data and accurately forecasting future trends
+
+Predictive models are a powerful tool for accurately predicting future events or outcomes based on historical data. With the increasing availability of large and complex datasets, advanced machine-learning techniques have become essential for extracting meaningful insights and making informed decisions. This study conducted an extensive literature review to identify a range of predictive models, including the Transformer, Informer, and Pyraformer. These models have demonstrated impressive performance in learning complex patterns from historical data and accurately forecasting future trends.
+
 ### Transformer Models
 
 #### Transformer
@@ -65,58 +66,59 @@ In the realm of future work, several key areas can be explored to further enhanc
 
 These directions for future research highlight the potential for continued innovation and improvement in algorithmic cryptocurrency trading.
 
-
 ## Setup
 
-- Setup Commands
+### Setup Commands
 
-  ```
-  conda create -n tradeai python=3.8 -y
+```bash
+conda create -n tradeai python=3.8 -y
 
-  conda activate tradeai
+conda activate tradeai
 
-  pip install --upgrade pip setuptools wheel
+pip install --upgrade pip setuptools wheel
 
-  pip install -r requirements.txt
+pip install -r requirements.txt
 
-  sudo apt-get install git-lfs (linux)
+sudo apt-get install git-lfs (linux)
 
-  brew install git-lfs (homebrew)
+brew install git-lfs (homebrew)
 
-  choco install git-lfs (microsoft)
-  ```
+choco install git-lfs (microsoft)
+```
 
-- Running TradeAI (locally and in container)
+### Running TradeAI (locally and in container)
 
-  ```
-  ./run_locally.sh
-  ```
+```bash
+./run_locally.sh
+```
 
-- Run Client (connecting to local TradeAI)
+### Run Client (connecting to local TradeAI)
 
-  ```
-  npm install
+```bash
+npm install
 
-  npm start
-  ```
+npm start
+```
 
-- Running TradeAI (in azure; extra requirements: docker, docker-compose, az)
+### Running TradeAI (in azure; extra requirements: docker, docker-compose, az)
 
-  ```
-  ./run_in_azure.sh
-  ```
+```bash
+./run_in_azure.sh
+```
 
-- How to use DVC to manage data
+### How to use DVC to manage data
 
-  1. Ask to be added to DVC remote repository
+1. Ask to be added to DVC remote repository
+2. `dvc pull` - should be prompted to login into google account.
+3. Modify data
+4. `dvc add [data_file]`
+5. Commit changes to `[data_file].csv.dvc` to git
+6. `dvc push`
 
-  2. dvc pull - should be prompted to login into google account.
+---
 
-  3. Modify data
+### Author Information
 
-  4. dvc add [data_file]
-
-  5. Commit changes to [data_file].csv.dvc to git
-
-  6. dvc push
-  
+**FundForge**  
+Website: [https://www.fundforge.sh/](https://www.fundforge.sh/)  
+Twitter: [https://x.com/FundForgedotsh](https://x.com/FundForgedotsh)
