@@ -2,7 +2,7 @@
 
 
 ![Twitter Cover](https://pbs.twimg.com/profile_banners/1876061916520673280/1736123542/1500x500)
-Website: [https://www.stratsynth.cx/](https://www.stratsynth.cx/)  
+Website: [https://www.stratsynth.sh/](https://www.stratsynth.sh/)  
 Twitter: [https://x.com/StratSynth)](https://x.com/StratSynth)
 
 ## Introduction
