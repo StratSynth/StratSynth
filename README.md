@@ -1,8 +1,9 @@
-# ForgeFund: Advancing Algorithmic Trading Systems with Deep Learning for Cryptocurrency Data
+# StratSynth: Redefining trading with AI. Build, test, and optimize strategies powered by smart agents. Your edge, synthesized.
 
-![Twitter Cover](https://pbs.twimg.com/profile_banners/1874914887220011008/1735853899/1500x500)
-Website: [https://www.fundforge.sh/](https://www.fundforge.sh/)  
-Twitter: [https://x.com/FundForgedotsh](https://x.com/FundForgedotsh)
+
+![Twitter Cover](https://pbs.twimg.com/profile_banners/1876061916520673280/1736123542/1500x500)
+Website: [https://www.stratsynth.cx/](https://www.stratsynth.cx/)  
+Twitter: [https://x.com/StratSynth)](https://x.com/StratSynth)
 
 ## Introduction
 
@@ -117,8 +118,4 @@ npm start
 
 ---
 
-### Author Information
 
-**FundForge**  
-Website: [https://www.fundforge.sh/](https://www.fundforge.sh/)  
-Twitter: [https://x.com/FundForgedotsh](https://x.com/FundForgedotsh)
